@@ -1,0 +1,123 @@
+body, header {
+    width: 100%;
+}
+
+
+/* HEADER */
+header {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height: 120px;
+    background: url("../img/banner/banner.jpg") top left no-repeat;
+    background-size: 100% 100%;
+}
+
+#logo img {
+    height: 80px;
+    width: 100px;
+    margin: 20px 38px 0px;
+}
+
+header div {
+    display: inline-block;
+    color: white;
+    letter-spacing: 5px;
+}
+
+
+/* NAV-BARS */
+.nav-top ul li, .nav-bottom ul li {
+    display: inline;
+}
+
+.nav-top ul li a, .nav-bottom ul li a{
+    text-decoration: none;
+    font-family: Verdana, Arial, sans-serif;
+}
+
+.nav-top ul li a {
+    font-size: 13.49px;
+    margin-right: 60px;
+    text-shadow: 0 17px 20px black;
+}
+
+.nav-top ul li .active {
+    color: #ffd93b;
+}
+
+.nav-bottom ul li a {
+    margin-right: 25px;
+}
+
+.nav-bottom ul li a, footer, .explanatory {
+    font-size: 12px;
+}
+
+
+/* CONTENT */
+#content, #author {
+    font-family: Arial, sans-serif;
+}
+
+#content {
+    margin: 170px 150px 70px;
+}
+
+#content, footer nav.nav-bottom ul li a {
+    color: black;
+}
+
+h1, h2, h3, nav.nav-top ul li a, nav.nav-bottom ul li a {
+    font-weight: bold;
+}
+
+h1, nav.nav-top ul li a {
+    color: white;
+}
+
+h1 {
+    font-family: "Times New Roman", serif;
+    font-size: 46.04px;
+    margin: 28px 0 10px 0px;
+    text-shadow: 0 17px 20px black;
+}
+
+h2 {
+    margin-bottom: 40px;
+    font-size: 30px;
+}
+
+
+/* EXPLANATORY */
+span.explanatory em {
+    display: block;
+    text-align: right;
+}
+
+.explanatory em, #author {
+    color: #aaaaaa;
+    text-transform: uppercase;
+} 
+
+h2, .explanatory em, #author {
+    text-transform: uppercase;
+}
+
+
+/* FOOTER */
+footer nav.nav-bottom {
+    margin-bottom: 28px;
+}
+
+footer nav.nav-bottom, #author {
+    text-align: center;
+}
+
+#author small {
+    padding-right: 25px;
+}
+
+footer {
+    padding-bottom: 50px;
+}

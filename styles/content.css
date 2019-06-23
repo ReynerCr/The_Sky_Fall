@@ -1,0 +1,47 @@
+/* CONTENT */
+article {
+    margin-bottom: 55px;
+}
+
+p {
+    font-size: 14px;
+}
+
+h3 {
+    font-size: 18px;
+}
+
+h3, p {
+    margin-bottom: 20px;
+    line-height: 18px;
+}
+
+#content img {
+    width: 70%;
+    height: 70%;
+}
+
+
+
+/* FLOATS */
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+article div.text {
+    width: 75%;
+}
+
+article div.img {
+    width: 25%;
+}
+
+.clearfix:after, .all-width {
+    content: "";
+    display: table;
+    clear: both;
+}

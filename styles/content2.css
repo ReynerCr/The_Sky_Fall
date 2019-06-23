@@ -1,0 +1,94 @@
+/* CONTACT */
+#form {
+    background-color: #232848;
+    color: white;
+}
+
+#form h2 {
+    color: #f4c534;
+    padding-top: 35px;
+}
+
+#form p, #form form {
+    display: block;
+    width: 581px;
+    margin: 0 auto;
+}
+
+#form p {
+    text-align: center;
+    line-height: 20px;
+}
+
+#form form {
+    padding-bottom: 55px;
+    font-size: 18px;
+}
+
+#form form label {
+    display: block;
+}
+
+#form form label, #form form input[type="submit"] {
+    margin-top: 35px;
+    font-weight: bold;
+}
+
+#form form input[type="text"], #form form input[type="email"] {
+    height: 20px;
+}
+
+#form form input[type="text"], #form form input[type="email"], #form form textarea {
+    margin-top: 10px;
+    font-family: monospace;
+    width: 560px;
+    padding: 10px;
+}
+
+#form form textarea {
+    height: 100px;
+}
+
+#form form input[type="submit"] {
+    background-color: #f4c534;
+    width: 583px;
+    height: 40px;
+    color: black;
+    cursor: pointer;
+    border-style: none;
+    position: relative;
+}
+
+#form form input[type="submit"]:active {   
+    top: 2px;
+    border-style: none;
+}
+
+
+/* CREDITS */
+h2 {
+    text-align: center;
+}
+
+#content ul {
+    margin-top: 55px;
+    display: block;
+}
+
+#content ul li {
+    list-style-type: disc;
+    font-size: 18px;
+    padding-bottom: 55px;
+}
+
+#content ul li a {
+    text-decoration: none;
+}
+
+#content ul li a:link, #content ul li a:visited {
+    color: #42509f;
+}
+
+#content ul li a:hover {
+    text-decoration: underline;
+}
